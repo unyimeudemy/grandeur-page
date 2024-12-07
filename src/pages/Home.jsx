@@ -13,10 +13,6 @@ import enhancecustomization from "../images/enhance.svg"
 import flow2 from "../images/flow2.svg"
 import twelveImage from "../images/twelveImage.svg"
 import fourteenImage from "../images/fourteenImage.svg"
-
-
-
-
 import SixContainer from "../components/six/SixContainer.jsx";
 import NineWrapper from "../components/nine/NineWrapper.jsx";
 import TenWrapper from "../components/ten/TenWrapper.jsx";
@@ -130,11 +126,21 @@ const Seven = styled.div`
 const LeftImage = styled.img`
     width: 579px;
     height: 701px;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 `
 
 const RightImage = styled.img`
     width: 579px;
     height: 701px;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 `
 
 const Eight = styled.div`

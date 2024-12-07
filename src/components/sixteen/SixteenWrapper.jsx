@@ -37,6 +37,11 @@ const OneCard = styled.div`
     width: 1188px;
     height: 432px;
     background-image: url(${(props) => props.src});
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 
 `
 
@@ -47,6 +52,11 @@ const Card = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 
 `
 
@@ -58,6 +68,7 @@ const ImageOverLay = styled.img`
 const OneCardImage = styled.img`
     width: 1188px;
     height: 432px;
+
 `
 
 

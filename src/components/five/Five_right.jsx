@@ -88,6 +88,11 @@ const RoutineLink = styled.img`
     width: 147px;
     height: 22px;
     margin-left: auto;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.2); 
+    }
 `
 
 const Five_right = () => {

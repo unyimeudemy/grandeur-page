@@ -97,6 +97,11 @@ const Button = styled.button`
     align-items: center;
     border: none;
     margin-top: 39px;
+    transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
 
 `
 
@@ -104,6 +109,8 @@ const ButtonText = styled.div`
  font-family: Helvetica;
  font-weight: bold;
  font-size: 16px;
+
+
 `
 
 const Paginator = styled.img`

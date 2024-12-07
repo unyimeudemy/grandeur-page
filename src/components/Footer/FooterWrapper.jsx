@@ -39,6 +39,9 @@ const LogoWrapper = styled.div`
 const Logo = styled.img`
     width: 145px;
     height: 62.23px;
+    &:hover {
+      cursor: pointer;
+    }
 `
 
 const LinksWrapper = styled.div`
@@ -107,6 +110,10 @@ const LinkOne1 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkOne2 = styled.div`
@@ -116,6 +123,10 @@ const LinkOne2 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkOne3 = styled.div`
@@ -125,6 +136,10 @@ const LinkOne3 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkOne4 = styled.div`
@@ -134,6 +149,10 @@ const LinkOne4 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const Two = styled.div`
@@ -160,6 +179,10 @@ const LinkTwo1 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkTwo2 = styled.div`
@@ -169,6 +192,10 @@ const LinkTwo2 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const Three = styled.div`
@@ -210,6 +237,10 @@ const LinkThreeTop1 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkThreeTop2 = styled.div`
@@ -219,6 +250,10 @@ const LinkThreeTop2 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkThreeBottom1 = styled.div`
@@ -228,6 +263,10 @@ const LinkThreeBottom1 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkThreeBottom2 = styled.div`
@@ -237,6 +276,10 @@ const LinkThreeBottom2 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkThreeBottom3 = styled.div`
@@ -246,6 +289,10 @@ const LinkThreeBottom3 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const Four = styled.div`
@@ -271,6 +318,10 @@ const LinkFour1 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkFour2 = styled.div`
@@ -280,6 +331,10 @@ const LinkFour2 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkFour3 = styled.div`
@@ -289,6 +344,10 @@ const LinkFour3 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkFour4 = styled.div`
@@ -298,6 +357,10 @@ const LinkFour4 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const LinkFour5 = styled.div`
@@ -307,6 +370,10 @@ const LinkFour5 = styled.div`
     font-weight: regular;
     font-size: 14px;
     color: #FFFFFF;
+        &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 `
 
 const Five = styled.div`
@@ -440,6 +507,9 @@ const Logos = styled.div`
 const SocialLogo = styled.img`
     width: 31px;
     height: 32px;
+         &:hover {
+      cursor: pointer;
+    }
 `
 
 const PlayStores = styled.div`
@@ -453,11 +523,17 @@ const PlayStores = styled.div`
 const AppleStore = styled.img`
     width: 119px;
     height: 35px;
+         &:hover {
+      cursor: pointer;
+    }
 `
 
 const GoogleStore = styled.img`
     width: 120px;
     height: 35px;
+         &:hover {
+      cursor: pointer;
+    }
 `
 
 const FooterWrapper = () => {

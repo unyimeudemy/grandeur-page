@@ -42,7 +42,11 @@ const Card = styled.div`
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     display: flex;
- 
+     transition: transform 0.2s ease-in-out; 
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.03);
+    }
 
 `
 

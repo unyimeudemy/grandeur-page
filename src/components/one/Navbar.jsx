@@ -26,6 +26,10 @@ const Left = styled.img`
  height: 29px;
  margin-left: 20px;
 
+      &:hover {
+      cursor: pointer;
+    }
+
 `
 
 
@@ -49,28 +53,46 @@ const Right = styled.div`
 const Text = styled.div`
  color: #212121;
  font-family: Roboto;
+     &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
 
 `
 const USflag = styled.img`
     width: 28px;
     height: 28px;
+
+    &:hover {
+      cursor: pointer;
+    }
 `
 
 const CartIcon = styled.img`
     width: 17.46px;
     height: 22.04px;
     color: #212121;
+          &:hover {
+      cursor: pointer;
+    }
 `
 
 const Profile = styled.img`
     width: 18.94px;
     height: 21.31px;
     color: #212121;
+          &:hover {
+      cursor: pointer;
+    }
 `
 const SearchIcon = styled.img`
     width: 23.35px;
     height: 23.17px;
     color: #212121;
+
+    &:hover {
+      cursor: pointer;
+    }
 `
 
 const Navbar = () => {
