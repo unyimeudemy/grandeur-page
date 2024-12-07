@@ -266,7 +266,6 @@ const Footer = styled.div`
 
 
 const Home = () => {
-
     return (
         <Container>
             <One>

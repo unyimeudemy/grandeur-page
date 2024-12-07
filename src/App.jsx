@@ -6,7 +6,7 @@ import {
   Route,
   //   Link,
 } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/home.jsx";
 
 
 
@@ -16,10 +16,7 @@ function App() {
       {/* <BrowserRouter basename=""> */}
           <Routes>
             <Route path="/">
-              <Route index element={<Home />} />
-              {/* <Route path="business" element={<SingleBusiness/>} /> */}
-              {/* <Route path="services" element={<Services />} /> */}
-              {/* <Route path="myProfile" element={<MyProfile />} /> */}
+              <Route index element={<Home/>} />
             </Route>
           </Routes>
     </BrowserRouter>
